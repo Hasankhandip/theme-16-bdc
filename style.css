@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+	max-width: 1200px;
+}
+.header-section{
+    width: 100%;
+    padding:10px;
+    background: #008738;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:999;
+}
+.hdr-logo{
+    position: relative;
+}
+.hdr-logo img{
+    width:100%;
+}
+.hdr-nam h6 {
+	color: #fff;
+	font-size: 26px;
+	margin-bottom: 0;
+	padding:10px 0;
+	position: absolute;
+	left:165px;
+    font-family: 'Anton', sans-serif;
+}
+.nav-item ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    padding:13px 0;
+    text-align: center;
+}
+.nav-item ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:20px;
+}
+.nav-item ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-item ul li a:hover{
+    text-decoration:underline;
+}
+.actv-nav{
+    text-decoration: underline !important;
+}
+.career-section {
+	padding-top: 20px;
+    padding-bottom:60px;
+    background: #00682b;
+    position: relative;
+    top: 74px;
+    left: 0;
+}
+.carrer-hdr h6 {
+	font-size: 25px;
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+    padding: 15px 0;
+    color: #fff;
+    margin-bottom:25px;
+}
+.table-row{
+    display:flex;
+    width: 100%;
+    font-family: sans-serif;
+    background:#006f2e;
+    padding: 10px 0;
+    color: #fff;
+    box-shadow: 0 1px 4px 0 rgb(255, 255, 255);
+    transition: .2s;
+}
+.player-stat{
+    background:#018a3a !important;
+}
+.player-stat:hover{
+    background:#069b44 !important;
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #fff;
+    vertical-align: middle;
+}
+.last-cell{
+    border-right: none;
+}
+.table-cell p{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+.table-cell a{
+    color: #fff;
+    text-decoration: none;
+}
